@@ -11,3 +11,15 @@
 --secondary-income: #D6FF62; 
 --secondary-expense: #F87828; 
 } 
+
+/* Estilo aplicado para tudo. */
+* { 
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--neutral-background);
+}
