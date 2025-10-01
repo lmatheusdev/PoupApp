@@ -1,4 +1,4 @@
-import { IconSearch } from "../Icons/Icones"
+import { IconSearch } from "../Icons"
 import styles from "./searchinput.module.css"
 
 export default function SearchInput(props) {

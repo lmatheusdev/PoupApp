@@ -1,10 +1,12 @@
-import Aside from "./Componentes/Aside"
-import Container from "./Componentes/Container"
-import Main from "./Componentes/Main/Main"
-import SearchInput from "./Componentes/SearchInput"
-import Typography from "./Componentes/Typography"
+import Aside from "./Componentes/Aside";
+import Container from "./Componentes/Container";
+import Main from "./Componentes/Main/Main";
+import SearchInput from "./Componentes/SearchInput";
+import Typography from "./Componentes/Typography";
 
-import Card from "./Componentes/Card"
+import { Accounts } from "./Componentes/Accounts";
+import Card from "./Componentes/Card";
+import Section from "./Componentes/Section";
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
             veja como estão suas finanças hoje.
           </Typography>
         </div>
-        <section>
+        <Section>
           <Card>
             <Card.Header>
               Orçamento diário disponível:
@@ -31,13 +33,21 @@ function App() {
           </Card>
           <Card>
             <Card.Header>
-              Orçamento diário disponível:
+              Progresso da meta financeira
             </Card.Header>
             <Card.Body>
-              R$200
+              Economizar
             </Card.Body>
           </Card>
-        </section>
+          <Card>
+            <Card.Header>
+              Minhas Contas
+            </Card.Header>
+            <Card.Body>
+              <Accounts/>
+            </Card.Body>
+          </Card>
+        </Section>
       </Main>
     </Container>
   )

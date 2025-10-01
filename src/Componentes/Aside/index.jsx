@@ -5,7 +5,7 @@ export default function Aside() {
   return (
     <aside className={styles.aside}>
       <img src={logo} />
-      <footer className={styles.footer}>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</footer>
+      <footer className={styles.footer}>Desenvolvido por Leandro. Projeto fictício sem fins comerciais.</footer>
     </aside>
   )
 }
